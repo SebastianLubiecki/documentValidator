@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d654e3b3-13ef-4134-aebb-14f42b21cf52" name="Default Changelist" comment="" />
+    <list default="true" id="d654e3b3-13ef-4134-aebb-14f42b21cf52" name="Default Changelist" comment="First commit of this project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IdValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IdValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/idValidateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/idValidateTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -28,23 +32,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="3" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="3" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="516" />
+          <entry key="java" value="815" />
+          <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="516" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="815" />
+          <entry key="PLAIN_TEXT" value="40" />
         </counts>
       </usages-collector>
     </session>
@@ -54,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ValidateInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="42">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -63,13 +70,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/IdValidate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="141">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#129#130#0" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
@@ -82,17 +87,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/idValidateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="173">
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
                 <element signature="method#nullNumberOfDocumentTest#0;class#idValidateTest#0" />
                 <element signature="method#documentNumberBasedOnLetters#0;class#idValidateTest#0" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
+                <element signature="method#wrongNumberOfDocument#0;class#idValidateTest#0" />
+                <element signature="method#wrongNumberOfDocument#1;class#idValidateTest#0" />
+                <element signature="method#goodNumberOfDocument#0;class#idValidateTest#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="21">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -106,6 +122,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -406,8 +425,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/idValidate.java" />
         <option value="$PROJECT_DIR$/src/main/java/ValidateInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/IdValidate.java" />
         <option value="$PROJECT_DIR$/src/test/java/idValidateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IdValidate.java" />
       </list>
     </option>
   </component>
@@ -416,6 +435,7 @@
     <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -469,7 +489,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544274782176" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544275666958" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -486,7 +506,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.idValidateTest.NullNumberOfDocumentTest">
+  <component name="RunManager" selected="JUnit.idValidateTest">
+    <configuration name="idValidateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="documentValidator_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="idValidateTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="idValidateTest.NullNumberOfDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="documentValidator_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -507,12 +535,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="idValidateTest.documentNumberBasedOnLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="documentValidator_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="idValidateTest" />
+      <option name="METHOD_NAME" value="documentNumberBasedOnLetters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="idValidateTest.goodNumberOfDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="documentValidator_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="idValidateTest" />
+      <option name="METHOD_NAME" value="goodNumberOfDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.idValidateTest.NullNumberOfDocument" />
       <item itemvalue="JUnit.idValidateTest.NullNumberOfDocumentTest" />
+      <item itemvalue="JUnit.idValidateTest.goodNumberOfDocument" />
+      <item itemvalue="JUnit.idValidateTest" />
+      <item itemvalue="JUnit.idValidateTest.documentNumberBasedOnLetters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.idValidateTest" />
+        <item itemvalue="JUnit.idValidateTest.documentNumberBasedOnLetters" />
+        <item itemvalue="JUnit.idValidateTest.goodNumberOfDocument" />
         <item itemvalue="JUnit.idValidateTest.NullNumberOfDocumentTest" />
         <item itemvalue="JUnit.idValidateTest.NullNumberOfDocument" />
       </list>
@@ -529,6 +583,14 @@
       <option name="presentableId" value="Default" />
       <updated>1544273456940</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit of this project">
+      <created>1544274939720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544274939720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -537,6 +599,18 @@
     </history-entry>
     <history-entry file="idValidateTest_NullNumberOfDocumentTest - 2018.12.08 at 14h 08m 48s.xml">
       <configuration name="idValidateTest.NullNumberOfDocumentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.08 at 14h 23m 49s.xml">
+      <configuration name="idValidateTest.goodNumberOfDocument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest - 2018.12.08 at 14h 24m 40s.xml">
+      <configuration name="idValidateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest_documentNumberBasedOnLetters - 2018.12.08 at 14h 24m 48s.xml">
+      <configuration name="idValidateTest.documentNumberBasedOnLetters" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest - 2018.12.08 at 14h 27m 48s.xml">
+      <configuration name="idValidateTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -550,7 +624,7 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
@@ -560,7 +634,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -576,23 +650,35 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit of this project" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit of this project" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="21">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ValidateInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IdValidate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="141">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#129#130#0" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
             <element signature="e#421#422#0" expanded="true" />
@@ -603,16 +689,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/idValidateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="173">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
             <element signature="method#nullNumberOfDocumentTest#0;class#idValidateTest#0" />
             <element signature="method#documentNumberBasedOnLetters#0;class#idValidateTest#0" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
+            <element signature="method#wrongNumberOfDocument#0;class#idValidateTest#0" />
+            <element signature="method#wrongNumberOfDocument#1;class#idValidateTest#0" />
+            <element signature="method#goodNumberOfDocument#0;class#idValidateTest#0" />
           </folding>
         </state>
       </provider>
