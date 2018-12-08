@@ -1,4 +1,4 @@
 public interface ValidateInterface {
-     boolean validation(String documentNumber);
 
+     boolean validation(String documentNumber);
 }

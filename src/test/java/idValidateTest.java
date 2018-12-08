@@ -16,7 +16,7 @@ public class idValidateTest {
     @Test
     public void nullNumberOfDocumentTest() {
         try {
-            idValidate.setDocument(null);
+            idValidate.validation(null);
             fail();
         } catch (IllegalArgumentException e) {
             System.out.println("Wrong number of document");
