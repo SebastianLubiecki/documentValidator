@@ -55,10 +55,8 @@ public class idValidateTest {
 
     @Test
     public void goodNumberOfDocument() {
-      boolean isGoodNumber = idValidate.validation("QWE123456");
-       assertEquals(true, isGoodNumber);
+        boolean isGoodNumber = idValidate.validation("gwe123456");
+        assertEquals(true, isGoodNumber);
     }
-
-
 
 }
