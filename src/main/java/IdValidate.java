@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class IdValidate implements ValidateInterface {
+    static private int[] tableWithDefinedValue = {7, 3, 1, 9, 7, 3, 1, 7, 3};
 
 
     public boolean validation(String documentNumber) {
@@ -19,7 +20,7 @@ public class IdValidate implements ValidateInterface {
             throw new IllegalArgumentException("Wrong number of document");
         }
 
-        int[] tableWithDefinedValue = {7, 3, 1, 9, 7, 3, 1, 7, 3};
+
         for (int i = 0; i < 9; i++) {
             tableOfIntFromDocument[i] = mapOfAscii(tableOfCharFromDocument[i]);
             sum += tableOfIntFromDocument[i] * tableWithDefinedValue[i];
@@ -27,7 +28,7 @@ public class IdValidate implements ValidateInterface {
         return sum % 10 == 0;
     }
 
-    public static int mapOfAscii(char inputChar) {
+    private static int mapOfAscii(char inputChar) {
 
         Map<Character, Integer> mapOfAsciiCod = new HashMap<>();
         mapOfAsciiCod.put('1', 1);
