@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d654e3b3-13ef-4134-aebb-14f42b21cf52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PESELValidate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/IdValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IdValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/idValidateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/idValidateTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,35 +26,36 @@
     <session id="-425720688">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="7" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="8" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="5" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="5" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1460" />
-          <entry key="txt" value="77" />
+          <entry key="java" value="2068" />
+          <entry key="txt" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1460" />
-          <entry key="PLAIN_TEXT" value="78" />
+          <entry key="JAVA" value="2068" />
+          <entry key="PLAIN_TEXT" value="87" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +74,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/IdValidate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PESELValidate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -79,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/idValidateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="320">
+              <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
@@ -413,16 +438,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/idValidate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/idValidateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ValidateInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PESELValidate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/IdValidate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/idValidateTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -430,6 +457,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -472,13 +502,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544342941297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544347720865" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -495,7 +522,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.idValidateTest">
+  <component name="RunManager" selected="JUnit.idValidateTest.goodNumberOfDocument">
     <configuration name="IdValidate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IdValidate" />
       <module name="documentValidator_main" />
@@ -550,9 +577,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.idValidateTest" />
-        <item itemvalue="Application.IdValidate" />
         <item itemvalue="JUnit.idValidateTest.goodNumberOfDocument" />
+        <item itemvalue="Application.IdValidate" />
+        <item itemvalue="JUnit.idValidateTest" />
         <item itemvalue="JUnit.idValidateTest.documentNumberBasedOnLetters" />
         <item itemvalue="JUnit.idValidateTest.wrongNumberOfDocument" />
       </list>
@@ -604,46 +631,53 @@
       <option name="project" value="LOCAL" />
       <updated>1544280775241</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Green">
+      <created>1544342981012</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544342981012</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="idValidateTest_wrongNumberOfDocument - 2018.12.08 at 15h 21m 30s.xml">
-      <configuration name="idValidateTest.wrongNumberOfDocument" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="idValidateTest_documentNumberBasedOnLetters - 2018.12.08 at 15h 25m 49s.xml">
-      <configuration name="idValidateTest.documentNumberBasedOnLetters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="idValidateTest_wrongNumberOfDocument - 2018.12.08 at 15h 25m 52s.xml">
-      <configuration name="idValidateTest.wrongNumberOfDocument" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="idValidateTest_wrongNumberOfDocument - 2018.12.08 at 15h 26m 00s.xml">
-      <configuration name="idValidateTest.wrongNumberOfDocument" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="idValidateTest_documentNumberBasedOnLetters - 2018.12.08 at 15h 26m 07s.xml">
-      <configuration name="idValidateTest.documentNumberBasedOnLetters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="idValidateTest - 2018.12.08 at 15h 49m 01s.xml">
+    <history-entry file="idValidateTest - 2018.12.09 at 09h 57m 57s.xml">
       <configuration name="idValidateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="idValidateTest - 2018.12.08 at 15h 49m 09s.xml">
-      <configuration name="idValidateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.08 at 16h 05m 11s.xml">
+    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.09 at 10h 00m 16s.xml">
       <configuration name="idValidateTest.goodNumberOfDocument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.08 at 16h 05m 35s.xml">
+    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.09 at 10h 01m 08s.xml">
       <configuration name="idValidateTest.goodNumberOfDocument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="idValidateTest - 2018.12.09 at 08h 56m 43s.xml">
+    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.09 at 10h 01m 31s.xml">
+      <configuration name="idValidateTest.goodNumberOfDocument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest - 2018.12.09 at 10h 01m 37s.xml">
       <configuration name="idValidateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest - 2018.12.09 at 10h 05m 56s.xml">
+      <configuration name="idValidateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.09 at 10h 06m 23s.xml">
+      <configuration name="idValidateTest.goodNumberOfDocument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.09 at 10h 12m 06s.xml">
+      <configuration name="idValidateTest.goodNumberOfDocument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.09 at 10h 21m 37s.xml">
+      <configuration name="idValidateTest.goodNumberOfDocument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="idValidateTest_goodNumberOfDocument - 2018.12.09 at 10h 21m 54s.xml">
+      <configuration name="idValidateTest.goodNumberOfDocument" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21140939" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -652,8 +686,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24539007" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -672,6 +706,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21409395" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -708,7 +772,22 @@
     <MESSAGE value="RedRedRedAndRed" />
     <MESSAGE value="AndGreen" />
     <MESSAGE value="Fail :/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fail :/" />
+    <MESSAGE value="Green" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/idValidateTest.java</url>
+          <line>56</line>
+          <properties class="idValidateTest" method="goodNumberOfDocument">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ValidateInterface.java">
@@ -728,17 +807,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PESELValidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IdValidate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/idValidateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="320">
+          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
