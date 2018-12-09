@@ -20,7 +20,6 @@ public class IdValidate implements ValidateInterface {
             throw new IllegalArgumentException("Wrong number of document");
         }
 
-
         for (int i = 0; i < 9; i++) {
             tableOfIntFromDocument[i] = mapOfAscii(tableOfCharFromDocument[i]);
             sum += tableOfIntFromDocument[i] * tableWithDefinedValue[i];

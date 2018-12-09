@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PESELValidate implements ValidateInterface {
-    static private  int[] tableWithDefinedValue = {1, 3, 7, 9, 1, 3, 7, 9, 1, 3,1};
+    static private int[] tableWithDefinedValue = {1, 3, 7, 9, 1, 3, 7, 9, 1, 3, 1};
 
     @Override
     public boolean validation(String documentNumber) {
@@ -15,17 +15,14 @@ public class PESELValidate implements ValidateInterface {
         char[] tableOfCharFromDocument = documentNumber.toCharArray();
         int[] tableOfIntFromDocument = new int[11];
 
-        if (!documentNumber.matches("\\d{11}") || tableOfCharFromDocument.length !=11) {
+        if (!documentNumber.matches("\\d{11}") || tableOfCharFromDocument.length != 11) {
             throw new IllegalArgumentException("Wrong number of document");
         }
         for (int i = 0; i < tableWithDefinedValue.length; i++) {
-           tableOfIntFromDocument[i] = mapOfAscii(tableOfCharFromDocument[i]);
-            sum += tableOfIntFromDocument[i]*tableWithDefinedValue[i];
-            System.out.println(sum);
+            tableOfIntFromDocument[i] = mapOfAscii(tableOfCharFromDocument[i]);
+            sum += tableOfIntFromDocument[i] * tableWithDefinedValue[i];
         }
-
-
-        return sum%10==0;
+        return sum % 10 == 0;
     }
 
     private static int mapOfAscii(char inputChar) {
@@ -45,8 +42,4 @@ public class PESELValidate implements ValidateInterface {
         return mapOfAsciiCod.get(inputChar);
     }
 
-    public static void main(String[] args) {
-        PESELValidate peselValidate = new PESELValidate();
-        System.out.println(peselValidate.validation("72092681773"));
-    }
 }
