@@ -5,7 +5,7 @@ public class IdValidate implements ValidateInterface {
         if (documentNumber == null) {
             throw new IllegalArgumentException("Wrong number of document");
         }
-        if (!documentNumber.contains("\\w{3}\\d{6}")) {
+        if (!documentNumber.matches("\\w{3}\\d{6}")) {
             throw new IllegalArgumentException("Wrong number of document");
         }
 
@@ -21,10 +21,7 @@ public class IdValidate implements ValidateInterface {
             tableOfIntFromDocument[i] = documentNumber.charAt(i)-ascii;
             sum += sum * tableOfIntFromDocument[i];
         }
-        if (sum % 10 == 0) {
-            return true;
-        }
-        return false;
+        return sum % 10 == 0;
     }
 
     public static void main(String[] args) {
